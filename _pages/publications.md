@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Publications
+title: Publicações
 permalink: /publications/
 ref: publications
 lang: pt
