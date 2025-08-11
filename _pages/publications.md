@@ -8,6 +8,12 @@ cover: media/images/2018/serrinha.jpg
 ---
 <br>
 
+### Catálogo Residência 2023
+![]({{ site.baseurl }}/media/images/catalogo2023.jpg)
+<br><br>
+[Baixe aqui](../media/docs/Resiliencia_Residencia_2023.pdf){:target="_blank"} a publicação de 2023
+<br><br><br><br>
+
 ### Catálogo Residência 2021
 ![]({{ site.baseurl }}/media/images/catalogo2021.jpg)
 <br><br>
