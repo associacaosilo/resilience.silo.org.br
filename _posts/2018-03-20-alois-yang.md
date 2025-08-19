@@ -3,6 +3,7 @@ title: 'Aloïs Yang'
 cover: media/images/2018/aloys00.jpg
 ref: alois
 lang: pt
+theme: Performance | Arte Sonora
 ---
 **"Micro Loop Macro Cycle - in 13:15s & 1145 mb"**
 
