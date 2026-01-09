@@ -681,8 +681,8 @@ hr {
 }
 
 .logo-column {
-  -ms-flex: 20%; /* IE10 */
-  flex: 20%;
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
   width: 100%;
   //padding: 2% 4%;
   margin-right: 10px;
@@ -690,9 +690,10 @@ hr {
 
 @media screen and (max-width: 800px) {
   .logo-column {
-    -ms-flex: 40%;
-    flex: 40%;
-    max-width: 40%;
+    -ms-flex: 0 0 68%;
+    flex: 0 0 68%;
+    max-width: 68%;
+    height: 100px;
   }
 }
 
