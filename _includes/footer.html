@@ -7,7 +7,7 @@
   </div>
 </div>
 
-{% if page.permalink == '/' %}
+{% if page.permalink == '/' or page.permalink == '/en/' %}
 <div class="footer footer-logos">
   <div class="footer-logo-container">
     <a href="https://silo.org.br/" target="_blank">
@@ -17,7 +17,7 @@
   </div>
 
   <div class="footer-logo-container">
-    <div class="footer-line">Apoio/Support</div>
+    <div class="footer-line">{% if page.permalink == '/en/' %}Support{% else %}Apoio{% endif %}</div>
     <div class="logo-row">
       <a href="https://www.fordfoundation.org/" target="_blank">
         <div class="footer-line parceira-logo logo-column"
