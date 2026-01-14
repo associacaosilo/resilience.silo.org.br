@@ -366,14 +366,14 @@ hr {
 }
 
 #home {
-  background-image: url("{{ site.baseurl }}/media/images/background_index2.png");
+  background-image: url("{{ site.baseurl }}/media/images/new_resiliencia_background_index.png");
   color: #262626 !important;
   background-position: right top;
   @media screen and (min-width: 800px) and (max-width: 1000px) {
     background-position: center;
   }
   @media screen and (min-width: 1000px) {
-    //background-size: 100%;
+    background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
   }
