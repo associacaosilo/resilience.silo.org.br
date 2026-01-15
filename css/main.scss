@@ -372,8 +372,14 @@ hr {
   @media screen and (min-width: 800px) and (max-width: 1000px) {
     background-position: center;
   }
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1651px) {
     background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 1001px) and (max-width: 1650px) {
+    background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
   }
@@ -874,8 +880,8 @@ i.fa-1_5x {
 
 .link-home {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 16pt;
+  font-weight: bold;
+  font-size: 16px;
   color: #cfcfcf !important;
 
   &:visited {
