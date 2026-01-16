@@ -1,0 +1,15 @@
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "3.1.0"
+  JEKYLL_ENV = "production"
+
+# Branch deploy para stage
+[context.stage]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[context.stage.environment]
+  JEKYLL_ENV = "staging"
