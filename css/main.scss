@@ -357,7 +357,10 @@ hr {
     min-height: 1100px;
   }
   @media screen and (max-width: 800px) {
-    min-height: 500px;
+    min-height: 540px;
+  }
+  @media screen and (max-width: 362px) {
+    min-height: 580px;
   }
 }
 
