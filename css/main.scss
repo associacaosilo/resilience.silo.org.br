@@ -357,7 +357,10 @@ hr {
     min-height: 1100px;
   }
   @media screen and (max-width: 800px) {
-    min-height: 500px;
+    min-height: 540px;
+  }
+  @media screen and (max-width: 362px) {
+    min-height: 580px;
   }
 }
 
@@ -366,14 +369,20 @@ hr {
 }
 
 #home {
-  background-image: url("{{ site.baseurl }}/media/images/background_index2.png");
+  background-image: url("{{ site.baseurl }}/media/images/new_resiliencia_background_index.png");
   color: #262626 !important;
   background-position: right top;
   @media screen and (min-width: 800px) and (max-width: 1000px) {
     background-position: center;
   }
-  @media screen and (min-width: 1000px) {
-    //background-size: 100%;
+  @media screen and (min-width: 1651px) {
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 1001px) and (max-width: 1650px) {
+    background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
   }
@@ -408,7 +417,7 @@ hr {
   background-color: #262626;
   padding: 30px;
   @media screen and (min-width: 800px) {
-    bottom: 100px;
+    top: 372px;
     right: 0;
     width: 40%;
   }
@@ -869,5 +878,20 @@ i.fa-1_5x {
 
   .menu-theme {
     font-weight: bold;
+  }
+}
+
+.link-home {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #cfcfcf !important;
+
+  &:visited {
+    color: #cfcfcf !important;
+  }
+
+  &:hover {
+    color: #fff !important;
   }
 }
